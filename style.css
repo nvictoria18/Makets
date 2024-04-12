@@ -18,3 +18,30 @@ span {
   margin-left: auto;
   margin-right: auto;
 }
+.ellipse-1 {
+  position: relative;
+}
+.first-list {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(-50%, -50%);
+}
+.first-products {
+  display:flex;
+}
+.secont-products {
+  display:flex;
+}
+.definition {
+  display:flex;
+}
+.texts-of-definition {
+  display: block;
+}
+.inputs {
+  display: flex;
+}
+.input-disabled:disabled {
+    background: #ccc;
+}
