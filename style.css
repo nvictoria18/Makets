@@ -11,7 +11,7 @@ body, html {
   width: 600px;
   margin:auto auto;
 }
-span {
+.sections-count{
   margin:auto auto;
   display: flex;
   justify-content: center;
@@ -99,4 +99,74 @@ table, td, th {
 }
 .table-2 {
   display:flex;
+}
+.third-table {
+  padding: 5px 10px;
+}
+.table-3 {
+  display:flex;
+}
+.count-table{
+  position: absolute;
+  top:3%;
+  left: 15px;
+  transform: translate(-50%, -50%);
+}
+.block-one{
+  border: 2px solid gray;
+  width: 600px;
+  height:100px;
+  padding: 5px 10px;
+}
+.block-one__text{
+  white-space: normal;
+}
+.count-text {
+  position: absolute;
+  top:15%;
+  left: 15px;
+  transform: translate(-50%, -50%);
+}
+.first-block {
+  display: flex;
+  padding: 5px 10px;
+}
+.block-two__text{
+  white-space: nowrap;;
+}
+.second-block {
+  display: flex;
+  padding: 5px 10px;
+}
+.block-two {
+  border: 2px solid gray;
+  width: 600px;
+  height:100px;
+  padding: 5px 10px;
+}
+.block-three {
+  border: 2px solid gray;
+  width: 600px;
+  height:100px;
+  padding: 5px 10px;
+}
+.third-block {
+  display: flex;
+  padding: 5px 10px;
+}
+.block-three__text{
+  white-space: pre-wrap;
+}
+.fourth-block {
+  display: flex;
+  padding: 5px 10px;
+}
+.block-four {
+  border: 2px solid gray;
+  width: 600px;
+  height:100px;
+  padding: 5px 10px;
+}
+.block-four__text{
+  white-space: break-spaces;
 }
