@@ -170,3 +170,59 @@ table, td, th {
 .block-four__text{
   white-space: break-spaces;
 }
+.sections_five{
+  background-color: #D8BFD8;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+.block_p {
+  background-color: darkmagenta;
+  height:50px;
+  width: 600px;
+  margin: 16px 16px;
+}
+.block_div {
+  background-color: darkmagenta;
+  height:50px;
+  width: 600px;
+  margin: 16px 16px;
+}
+.block_span {
+  background-color: darkmagenta;
+  height:50px;
+  width: 150px;
+  display: inline-block;
+  margin: 0px 16px;
+}
+.block_input {
+  width: 200px;
+}
+.block_hr3 {
+  background-color: darkmagenta;
+  height:50px;
+  width: 600px;
+  display:inline-block;
+  margin: 16px 16px;
+}
+.block_button {
+  background-color: darkmagenta;
+  height:50px;
+  width: 200px;
+  margin: 5px 16px;
+}
+.block_of_section {
+  display: flex;
+}
+.block_section-one {
+  background-color: darkmagenta;
+  height:50px;
+  width: 150px;
+  margin: 5px 8px;
+}
+.block_section-two {
+  background-color: darkmagenta;
+  height:50px;
+  width: 150px;
+  margin: 5px 8px;
+}
