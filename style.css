@@ -226,3 +226,112 @@ table, td, th {
   width: 150px;
   margin: 5px 8px;
 }
+.selectors {
+  margin: auto auto;
+  width: 600px;
+}
+/* 0, 1, 1 */
+.div_tags p { 
+  background-color: orange;
+}
+/* 0, 1, 1 */
+.div_tags h2 { 
+  background-color: blue;
+}
+/* 1, 0, 1 */
+#test p {
+  background-color: yellow;
+}
+/* 1, 0, 1 */
+#test h2 {
+  background-color: red;
+}
+/* 0, 1, 0 */
+.bbb {
+  background-color: green;
+}
+/* 1, 1, 0 */
+#test .bbb {
+  font-style: italic;
+}
+/* 0, 1, 1 */
+.bbb p {
+  background-color: rgb(246, 4, 4);
+}
+/* 1, 1, 1 */
+#test .bbb h2 {
+  color: white;
+}
+/* 1, 1. 1 */
+#test .bbb p {
+  font-size: 20px;
+}
+/* 0, 1, 0 */
+.bbb, .xxx {
+  text-align: center;
+}
+/* 0, 1, 1 0, 1, 1 */
+.bbb p, .xxx h2 {
+  background-color: aqua;
+}
+/* 1, 1, 1, 1, 1, 1 */
+#test .bbb p, #test .xxx p { /*12*/
+  border: 2px solid gray;
+}
+/* 0, 1, 1 */
+div .fff {
+  background-color: greenyellow; /* 13 */
+}
+/* 0, 1, 1 */
+.fff > p { /* 14 */
+  color: red;
+}
+/* 0, 1, 1 */
+.fff p { /* 15 */
+  color:blueviolet;
+}
+/* 0, 2, 0 */
+.fff .bbb { /* 16 */
+  border: 2px solid blue;
+}
+/* 0, 2, 1 */
+.fff .bbb h2 { /* 17 */
+  background-color: cornflowerblue;
+}
+/* 0, 1, 1 */
+.selectors span { /* 18 */
+  border-top: 2px solid red;
+}
+/* 0, 1, 1 */
+div[data-value='45'] { /* 19 */
+  border-bottom: 2px solid maroon;
+}
+/* 0, 1, 0 */
+.parents {
+  border-bottom: 5px solid grey; /* 20 */
+}
+/* 0, 1, 0 */
+.text-active{
+  background-color: chocolate; /* 21 */
+}
+/* 1, 1, 1 */
+#my-test li:nth-child(2) { /* 22 */
+  color:blue;
+}
+/* 0, 1, 1 */
+.parent-container img {
+  max-width: 20%;
+  height: auto;
+}
+/* 0, 1, 2 */
+.parent-container h1 + p { /* 23 */
+  background-color: blue;
+}
+/* 0, 1, 2 */
+.parent-container div ~ p { /*24*/
+  border-top: 5px solid red;
+}
+/* 0, 1, 1 */
+.parent-container :not(img) { /*25*/
+  border: 2px solid green;
+}
