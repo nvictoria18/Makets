@@ -41,28 +41,14 @@ body, html {
 .inputs {
   display: block;
 }
-.input-text {
+.input-text, 
+.input-button, 
+.input-disabled, 
+.input-password, 
+.input-textarea, 
+.input-button, 
+.button-button{
   display: block;
-  padding: 5px 5px;
-}
-.input-button {
-  display: block;
-  padding: 5px 5px;
-}
-.input-disabled {
-  display: block;
-  padding: 5px 5px;
-}
-.input-textarea {
-  display:block;
-  padding: 5px 5px;
-}
-.input-button {
-  display: block;
-  padding: 5px 5px;
-}
-.button-button {
-  display:block;
   padding: 5px 5px;
 }
 table, td, th {
@@ -232,47 +218,47 @@ table, td, th {
 }
 /* 0, 1, 1 */
 .div_tags p { 
-  background-color: orange;
+  background-color: orange;/* 1 */
 }
 /* 0, 1, 1 */
 .div_tags h2 { 
-  background-color: blue;
+  background-color: blue;/* 2 */
 }
 /* 1, 0, 1 */
 #test p {
-  background-color: yellow;
+  background-color: yellow;/* 3 */
 }
 /* 1, 0, 1 */
 #test h2 {
-  background-color: red;
+  background-color: red;/* 4 */
 }
 /* 0, 1, 0 */
 .bbb {
-  background-color: green;
+  background-color: green;/* 5 */
 }
 /* 1, 1, 0 */
 #test .bbb {
-  font-style: italic;
+  font-style: italic;/* 6 */
 }
 /* 0, 1, 1 */
 .bbb p {
-  background-color: rgb(246, 4, 4);
+  background-color: rgb(246, 4, 4);/* 7 */
 }
 /* 1, 1, 1 */
 #test .bbb h2 {
-  color: white;
+  color: white;/* 8 */
 }
 /* 1, 1. 1 */
 #test .bbb p {
-  font-size: 20px;
+  font-size: 20px;/* 9 */
 }
 /* 0, 1, 0 */
 .bbb, .xxx {
-  text-align: center;
+  text-align: center;/* 10 */
 }
 /* 0, 1, 1 0, 1, 1 */
 .bbb p, .xxx h2 {
-  background-color: aqua;
+  background-color: aqua; /* 11 */
 }
 /* 1, 1, 1, 1, 1, 1 */
 #test .bbb p, #test .xxx p { /*12*/
