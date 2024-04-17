@@ -326,10 +326,10 @@ div[data-value='45'] { /* 19 */
 .section-seven__tasks-second {
   display: flex;
 }
-.tasks-first__count-text,
+.first-tasks__count-text,
 .tasks-second__count-text{
   position: absolute;
-  top:2%;
+  top:3%;
   left: 15px;
   transform: translate(-50%, -50%);
 }
@@ -456,6 +456,20 @@ div[data-value='45'] { /* 19 */
 .section-nine > div{
   margin:10px;
 }
+.first-tasks, .second-tasks, .third-tasks,
+.fourth-tasks, .fifth-tasks, .sixth-tasks,
+.seventh-tasks, .eighth-tasks, .nineth-tasks,
+.tenth-tasks, .eleventh-tasks {
+  display:flex;
+}
+.section-nine__count-text {
+  position: absolute;
+  top:8%;
+  left: 15px;
+  transform: translate(-50%, -50%);
+  display: flex-inline;
+}
+
 .section-nine__first-tasks{
   margin: auto auto;
   display:flex;
@@ -721,4 +735,78 @@ div[data-value='45'] { /* 19 */
 }
 .tenth-tasks__block_4 {
   width: 60px;
+}
+.section-nine__eleventh-tasks {
+  margin: auto auto;
+  display:flex;
+  height:200px;
+  width:500px;
+  align-items: baseline;
+  justify-content: center;
+  background-color: #8B008B;
+}
+.section-nine__eleventh-tasks > div {
+  margin-top: 20px;
+  background-color: orange;
+}
+.eleventh-tasks__block_1 {
+  position: relative;
+  width: 130px;
+  height: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+.eleventh-tasks__block_2{
+  position: relative;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 130px;
+  height: 100px;
+  text-align: center;
+  font-size: 18px;
+}
+.eleventh-tasks__block_3 {
+  position: relative;
+  margin-left: 5px;
+  margin-right: 10px;
+  width: 130px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+.eleventh-tasks__block_4 {
+  position: relative;
+  width: 130px;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+.eleventh-tasks__line {
+  background-color: yellow;
+  height:5px;
+  width:500px;
+  position: absolute;
+  margin-top: 47px;
+  z-index: 2;
+}
+/* Секция 10 */ 
+.section-10 {
+  background-color: bisque;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+.sections-10__header{
+  width: 100%;
+  height: 100px;
+  background-color: #DCDCDC;
+  margin: auto auto;
+  text-align: center;
+  align-content: center;
+  font-size: 30px;
+}
+.main__block {
+  width: 60%;
+  height: 400px;
+  background-color: #F5F5DC;
 }
