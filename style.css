@@ -809,4 +809,56 @@ div[data-value='45'] { /* 19 */
   width: 60%;
   height: 400px;
   background-color: #F5F5DC;
+  position: relative;
+}
+.block__title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+}
+.block__elements {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 5px;
+  position: absolute;
+}
+.block__elements > div {
+  border: 5px solid #FFDEAD;
+  margin: 10px 20px;
+  height: 80px;
+  font-size: 20px;
+}
+.block__element_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  background-color: bisque;
+  height: 30px;
+}
+.block__element_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  background-color: bisque;
+  height: 30px;
+}
+.block__element_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: bisque;
+  height: 30px;
+}
+.sections-10__main ~ .sections-10__sidebar {
+  display: flex;;
+}
+.sections-10__sidebar {
+  width: 40%;
+  background-color: #90EE90	;
 }
