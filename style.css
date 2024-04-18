@@ -1282,5 +1282,127 @@ div[data-value='45'] { /* 19 */
 /* Секция 15 */
 
 .sections-15__container {
-  
+  display: block;
+  height: auto;
+  width: auto;
+  background-color: #FFB6C1;
+}
+
+.container__grid-block_1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.grid-block_1__child_1, .grid-block_1__child_2, .grid-block_1__child_3,
+.grid-block_1__child_4, .grid-block_1__child_5, .grid-block_1__child_6,
+.grid-block_1__child_7, .grid-block_1__child_8, .grid-block_1__child_9
+{
+  background-color: #FA8072;
+  width: 120px;
+  height: 120px;
+  margin:10px 20px;
+  border: 3px solid black;
+  justify-self: center;
+  align-self: center;
+}
+
+.container__grid-block_2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.container__grid-block_2 > *{
+  background-color: red;
+  width: 120px;
+  height: 120px;
+  margin:10px 20px;
+  border: 3px solid black;
+  place-self: center;
+}
+
+.container__grid-block_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.container__grid-block_3 > *{
+  background-color: #8B0000;
+  width: 120px;
+  height: 120px;
+  border: 3px solid black;
+}
+
+.grid-block_3__child_5 {
+  justify-self: center;
+  align-self: center;
+}
+
+.container__flexbox {
+  width: 28%;
+}
+
+.container__flexbox-block_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container__flexbox-block_1 > *{
+  background-color: #FA8072;
+  width: 120px;
+  height: 120px;
+  margin:10px 20px;
+  border: 3px solid black;
+  place-self: center;
+}
+
+.container__flexbox-block_2 {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.container__flexbox-block_2 > *{
+  background-color: red;
+  width: 120px;
+  height: 120px;
+  border: 3px solid black;
+  place-self: center;
+}
+
+.container__flexbox-block_3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.flexbox-block_3__child_1, .flexbox-block_3__child_2, .flexbox-block_3__child_3,
+.flexbox-block_3__child_4, .flexbox-block_3__child_5, .flexbox-block_3__child_6,
+.flexbox-block_3__child_7, .flexbox-block_3__child_8 {
+  margin:20px 20px;
+  background-color: #8B0000;
+  width: 120px;
+  height: 120px;
+  border: 3px solid black;
+}
+
+.flexbox-block_3__child_9 {
+  align-self: flex-end;
+  justify-self: end;
+  background-color: #8B0000;
+  border: 3px solid black;
+  width: 120px;
+  height: 120px;
 }
