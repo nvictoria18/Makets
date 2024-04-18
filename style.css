@@ -1054,3 +1054,140 @@ div[data-value='45'] { /* 19 */
 }
 
 /* Секция 11 */
+
+.sections-11 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sections-11__container_first,
+.sections-11__container_second {
+  margin:5px 20px;
+}
+
+/* Flexbox */
+.first__parent {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first__child {
+  width:200px;
+  height: 100px;
+  background-color: #8B008B;
+}
+
+.first__line_1 {
+  border: 2px solid black;
+  position: absolute;
+  width: 100%;
+}
+
+.first__line_2 {
+  background-color: black;
+  border: 2px solid black;
+  height: 100%; 
+  position: absolute;
+}
+
+.second__parent {
+  width: 600px;
+  height: 400px;
+  background-color: grey;
+  position: relative;
+}
+
+/* Position */
+.second__child {
+  width:200px;
+  height: 100px;
+  background-color: #8B008B;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.second__line_1 {
+  margin: auto 0;
+  border: 2px solid black;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.second__line_2 {
+  margin: 0 auto;
+  background-color: black;
+  border: 2px solid black;
+  height: 100%; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+/* Секция 12 */
+
+.sections-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sections-12___backgroud {
+  margin: 10px 10px;
+  width: 600px;
+  height:400px;
+  border: 1px solid black;
+  
+}
+
+.background__image {
+  background-image: url("./styles/img/Rectangle\ 35.png"), url("./styles/img/Rectangle\ 35.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position:
+                  130% -60%,
+                  -50% 180%;
+}
+
+/* Секция 13 */
+
+.section-13 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-13__container {
+  margin: 10px 10px;
+  width: 600px;
+  height:400px;
+  border: 1px solid black;
+}
+
+.container__element{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  /* padding: 15px; 1. все внутренние отступы равны 15px */
+  /* padding: 15px 24px; 2. внутренние отступы вверху и внизу равны 15px, а слева и справа 24px*/
+  /* padding: 15px 0 24px; 3. внутренний отступ сверху равен 15px, внутренние отступы справа и слева 0, a снизу 24px */
+  /* padding: 1px 2px 3px 4px; 4. внутренний отступ сверху равен 1px, внутренние отступы справа 2px, слева 3px, a снизу 4px  */
+  /* margin: 4px; 1. внешние отступы равны 4px*/
+  /* margin: 0 auto; 2. внешние отступы сверху и справа будут равны 0, а горизонтальные отступы ценризуются*/
+  /* margin: 15px 0 24px; 3. внешний отступ сверху равен 15px, внешние отступы справа и слева 0, a снизу 24px */
+  margin: 1px 2px 3px 4px;  /* 4. внешний отступ сверху равен 1px, внешние отступы справа 2px, слева 3px, a снизу 4px  */
+}
