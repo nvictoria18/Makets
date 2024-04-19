@@ -3,347 +3,375 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comforter&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Suranna&display=swap" rel="stylesheet">
   <title>Makets</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <!-- Секция 1 -->
   <section class="sections">
-    <div class="header">
-      <span class="sections-count">Section #1</span>
-    </div>
-    <div class="lists">    
-      <div class="first-products">
-        <div class="ellipse-1">
-          <img src="./styles/img/el.png">
-          <div class="first-list">1</div>
+    <header class="sections-count">Section #1</header>
+    <div class="section-1__lists">
+      
+      <div class="lists-1__products">
+        <div class="ellipse-block">
+          <div class="ellipse-block__image">
+            <div class="ellipse-block__count">1</div>
+          </div>
         </div>
-        <strong>Список продуктов:</strong>
-      </div>
-      <div class="list-one">
-        <ul>
-          <li>Хлеб</li>
-          <li>Масло</li>
-          <li>Молоко</li>
-        </ul>
-      </div>
-      <div class="secont-products">
-        <div class="ellipse-1">
-          <img src="./styles/img/el.png">
-          <div class="first-list">2</div>
-        </div>
-        <strong>Список продуктов:</strong>
-      </div>
-        <div class="list-two">
+        <div class="products">
+          <strong>Список продуктов:</strong>
           <ul>
             <li>Хлеб</li>
             <li>Масло</li>
             <li>Молоко</li>
           </ul>
         </div>
-    </div>
-    <div class="definition">
-      <div class="definition_HTML-CSS">
-        <div class="ellipse-1">
-          <img src="./styles/img/el.png">
-          <div class="first-list">3</div>
+      </div>
+
+      <div class="lists-2__products">
+        <div class="ellipse-block">
+          <div class="ellipse-block__image">
+            <div class="ellipse-block__count">2</div>
+          </div>
+        </div>
+        <div class="products">
+          <strong>Список продуктов:</strong>
+          <ol>
+            <li>Хлеб</li>
+            <li>Масло</li>
+            <li>Молоко</li>
+          </ol>
         </div>
       </div>
-      <div class="texts-of-definition">
-        <dl>
-          <dt><strong>HTML</strong></dt>
-          <dd>Язык гипертекстовой разметки, служит для создания HTML страниц</dd>
-          <dt><strong>CSS</strong></dt>
-          <dd>Каскадные таблицы стилей, служат для стилизации элементов HTML страницы</dd>
-        </dl>
+
+      <div class="lists-3__definition">
+        <div class="ellipse-block">
+          <div class="ellipse-block__image">
+            <div class="ellipse-block__count">3</div>
+          </div>
+        </div>
+        <div class="definition__texts">
+          <dl>
+            <dt><strong>HTML</strong></dt>
+            <dd>Язык гипертекстовой разметки, служит для создания HTML страниц</dd>
+            <dt><strong>CSS</strong></dt>
+            <dd>Каскадные таблицы стилей, служат для стилизации элементов HTML страницы</dd>
+          </dl>
+        </div>
       </div>
-      </div>
+
     </div>
   </section>
+
   <!-- Секция 2 -->
+
   <section class="sections">
     <span class="sections-count">Section #2</span>
     <div class="section-2">
-      <div class="inputs">
-        <div class="input-text">
+      <div class="section-2__inputs">
+        <div class="inputs__text">
           <input type="text" placeholder="Плэйсхолдер"> 
         </div>
-        <div class="input-button">
-          <input class="input-button" type="button" value="Value">
+        <div class="inputs__button">
+          <input type="button" value="Value">
         </div>
-        <div class="input-disabled">
-          <input class="input-disabled" placeholder="disabled" disabled="true">
+        <div class="inputs__disabled">
+          <input placeholder="disabled" disabled="true">
         </div>
-        <div class="input-password">
+        <div class="inputs__password">
           <input type="password">
         </div>
-          <textarea class="input-textarea" placeholder="Введите текст"></textarea>
-          </div>
+          <textarea class="inputs__textarea" placeholder="Введите текст"></textarea>
       </div>
-      <div class="buttons">
-        <div class="input-button">
+      <div class="section-2__buttons">
+        <div class="buttons__input-button">
           <input type="button" value="Кнопка через тег input">
         </div>
-        <div class="button-button">
+        <div class="buttons__button-button">
           <button>Кнопка через тег button</button>
       </div> 
     </div>
   </section>
+
   <!-- Секция 3 -->
   <section class="sections">
     <span class="sections-count">Section #3</span>
-    <div class="table-1">
-      <div class="ellipse-tables">
-        <img src="./styles/img/el.png">
-          <div class="first-table">1</div>
+    <div class="section-3">
+      <div class="section-3__table-1">
+        <div class="ellipse-block">
+          <div class="ellipse-block__image">
+            <div class="ellipse-block__count">1</div>
+          </div>
         </div>
-      <div class="tables-first">
-        <table>
-          <thead>
-            <th>Ячейка 1</th>
-            <th>Ячейка 2</th>
-            <th>Ячейка 3</th>
-          </thead>
-          <thbody>
-            <tr>
-              <td>Ячейка 4</td>
-              <td>Ячейка 5</td>
-              <td>Ячейка 6</td>
-            </tr>
-            <tr>
-              <td>Ячейка 7</td>
-              <td>Ячейка 8</td>
-              <td>Ячейка 9</td>
-            </tr>
-          </thbody>
-        </table>
+        <div class="table-1">
+          <table>
+            <thead>
+              <th>Ячейка 1</th>
+              <th>Ячейка 2</th>
+              <th>Ячейка 3</th>
+            </thead>
+            <thbody>
+              <tr>
+                <td>Ячейка 4</td>
+                <td>Ячейка 5</td>
+                <td>Ячейка 6</td>
+              </tr>
+              <tr>
+                <td>Ячейка 7</td>
+                <td>Ячейка 8</td>
+                <td>Ячейка 9</td>
+              </tr>
+            </thbody>
+          </table>
+        </div>
       </div>
-    </div>
-    <div class="table-2">
-      <div class="ellipse-tables">
-        <img src="./styles/img/el.png">
-          <div class="first-table">2</div>
+      <div class="section-3__table-2">
+        <div class="ellipse-block">
+          <div class="ellipse-block__image">
+            <div class="ellipse-block__count">2</div>
+          </div>
+        </div>
+        <div class="table-2">
+          <table>
+            <thbody>
+              <tr>
+                <td colspan="3">Ячейка 1</td>
+              </tr>
+              <tr>
+                <td>Ячейка 4</td>
+                <td rowspan="2">Ячейка 5</td>
+                <td>Ячейка 6</td>
+              </tr>
+              <tr>
+                <td>Ячейка 7</td>
+                <td>Ячейка 9</td>
+              </tr>
+            </thbody>
+          </table>
+        </div>
       </div>
-      <div class="second-table">
-            <table>
-              <thbody>
-                <tr>
-                  <td colspan="3">Ячейка 1</td>
-                </tr>
-                <tr>
-                  <td>Ячейка 4</td>
-                  <td rowspan="2">Ячейка 5</td>
-                  <td>Ячейка 6</td>
-                </tr>
-                <tr>
-                  <td>Ячейка 7</td>
-                  <td>Ячейка 9</td>
-                </tr>
-              </thbody>
-        </table>
-      </div>
-    </div>
-    <div class="table-3">
-      <div class="ellipse-tables">
-        <img src="./styles/img/el.png">
-          <div class="count-table">3</div>
-      </div>
-      <div class="third-table">
-        <table>
-          <thbody>
-            <tr>
-              <td rowspan="2">номер</td>
-              <td colspan="2">теги</td>
-            </tr>
-            <tr>
-              <td>тег</td>
-              <td>значение</td>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>p</td>
-              <td rowspan="4">для текста</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>a</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>b</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>i</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>table</td>
-              <td>таблица</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>tr</td>
-              <td>ряд таблицы</td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>td</td>
-              <td rowspan="2">ячейка таблицы</td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td>th</td>
-            </tr>
-          </thbody>
-        </table>
+      <div class="section-3__table-3">
+        <div class="ellipse-block">
+          <div class="ellipse-block__image">
+            <div class="ellipse-block__count">3</div>
+          </div>
+        </div>
+        <div class="third-table">
+          <table>
+            <thbody>
+              <tr>
+                <td rowspan="2">номер</td>
+                <td colspan="2">теги</td>
+              </tr>
+              <tr>
+                <td>тег</td>
+                <td>значение</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>p</td>
+                <td rowspan="4">для текста</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>a</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>b</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>i</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>table</td>
+                <td>таблица</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>tr</td>
+                <td>ряд таблицы</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>td</td>
+                <td rowspan="2">ячейка таблицы</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>th</td>
+              </tr>
+            </thbody>
+          </table>
+        </div> 
       </div>
     </div>
   </section>
+
   <!-- Секция 4 -->
   <section class="sections">
     <span class="sections-count">Section #4</span>
-    <div class="blocks-of-texts">
-      <div class="first-block">
-        <div class="ellipse-tables">
-          <img src="./styles/img/el.png">
-            <div class="count-text">1</div>
-        </div>
-        <div class="block-one">
-          <p class="block-one__text">
-            В тени могучих сосен, где воздух пропитан свежестью и запахом смолы, раскинулся маленький загородный домик. Его белоснежная стена была украшена вьющимися растениями, а крыша скрывалась под покрывалом зелени.
-          </p>
-        </div>
-      </div>
-      <div class="second-block">
-        <div class="ellipse-tables">
-          <img src="./styles/img/el.png">
-            <div class="count-text">2</div>
-        </div>
-        <div class="block-two">
-          <p class="block-two__text">
-            Жизнь в этом уголке была размеренной и спокойной. Здесь время тянулось медленно, словно попадая в плен прекрасной иллюзии. Вечера проводились за чашечкой ароматного чая, слушая шепот деревьев и пение птиц. 
-          </p>
-        </div>
-      </div>
-        <div class="third-block">
-          <div class="ellipse-tables">
-            <img src="./styles/img/el.png">
-              <div class="count-text">3</div>
+    <div class="section-4__blocks-of-texts">
+      <div class="blocks-of-texts">
+        <div class="blocks-of-texts__item_first">
+          <div class="ellipse-block">
+            <div class="ellipse-block__image">
+              <div class="ellipse-block__count">1</div>
+            </div>
           </div>
-          <div class="block-three">
-            <p class="block-three__text">
-              Лес внутри затерянной долины казался пропитанным мистикой. Древесный свод тянулся к небу, словно стремясь дотянуться до недосягаемых звёзд. Мягкий шепот листвы и запах дождя наполняли воздух, создавая атмосферу покоя и умиротворения.
+          <div class="item_first">
+            <p class="item_first__text">
+              В тени могучих сосен, где воздух пропитан свежестью и запахом смолы, раскинулся маленький загородный домик. Его белоснежная стена была украшена вьющимися растениями, а крыша скрывалась под покрывалом зелени.
             </p>
           </div>
         </div>
-        <div class="fourth-block">
-          <div class="ellipse-tables">
-            <img src="./styles/img/el.png">
-              <div class="count-text">4</div>
+        <div class="blocks-of-texts__item_second">
+          <div class="ellipse-block">
+            <div class="ellipse-block__image">
+              <div class="ellipse-block__count">2</div>
+            </div>
           </div>
-          <div class="block-four">
-            <p class="block-four__text">
-              Вдали слышался шум ручья, его прозрачные воды мерцали под лучами утреннего солнца. В этом уголке природы словно останавливалось время, даруя каждому, кто сюда попадал, момент спокойствия и внутреннего восстановления.            </p>
+          <div class="item_second">
+            <p class="item_second__text">
+              Жизнь в этом уголке была размеренной и спокойной. Здесь время тянулось медленно, словно попадая в плен прекрасной иллюзии. Вечера проводились за чашечкой ароматного чая, слушая шепот деревьев и пение птиц. 
+            </p>
           </div>
         </div>
+          <div class="blocks-of-texts__item_third">
+            <div class="ellipse-block">
+              <div class="ellipse-block__image">
+                <div class="ellipse-block__count">3</div>
+              </div>
+            </div>
+            <div class="item_third">
+              <p class="item_third__text">
+                Лес внутри затерянной долины казался пропитанным мистикой. Древесный свод тянулся к небу, словно стремясь дотянуться до недосягаемых звёзд. Мягкий шепот листвы и запах дождя наполняли воздух, создавая атмосферу покоя и умиротворения.
+              </p>
+            </div>
+          </div>
+          <div class="blocks-of-texts__item_fourth">
+            <div class="ellipse-block">
+              <div class="ellipse-block__image">
+                <div class="ellipse-block__count">4</div>
+              </div>
+            </div>
+            <div class="item_fourth">
+              <p class="item_fourth__text">
+                Вдали слышался шум ручья, его прозрачные воды мерцали под лучами утреннего солнца. В этом уголке природы словно останавливалось время, даруя каждому, кто сюда попадал, момент спокойствия и внутреннего восстановления.            </p>
+            </div>
+          </div>
+      </div>
     </div>
   </section>
+
   <!-- Секция 5 -->
-  <section class="sections_five">
+  <section class="sections">
     <span class="sections-count">Section #5</span>
-    <div class="all-blocks">
-      <p class="block_p">
-        Это p
-        <br>В: 50px</br>
-      </p>
-      <div class="block_div">
-        Это div
-        <br>В: 50px</br>
-      </div>
-      <span class="block_span">
-        Это span 
-        <br>В: 50px Ш: 150px</br>
-      </span>
-      <input  class="block_input" type="button" value="Это input">
-      <div class="h3">
-        <h3 class="block_hr3">
-        Это hr3
+    <div class="section-5__all-blocks">
+      <div class="all-blocks">
+        <p class="all-blocks__block_p">
+          Это p
           <br>В: 50px</br>
-        </h3>
-      </div>
-      <button class="block_button">
-        Это button
-        <br>В: 50px Ш: 200px</br>
-      </button>
-      <div class="block_of_section">
-        <section class="block_section-one">
-          Это section 1
-          <br>В: 50px Ш: 150px</br>
-        </section>
-        <section class="block_section-two">
-          Это section 2
-          <br>В: 50px Ш: 150px</br>
-        </section>
+        </p>
+        <div class="all-blocks__block_div">
+          Это div
+          <br>В: 50px</br>
+        </div>
+        <div class="all-blocks__span_div">
+          <span class="all-blocks__block_span">
+            Это span 
+            <br>В: 50px Ш: 150px</br>
+          </span>
+          <div class="all-blocks__block_input">
+            <input type="button" value="Это input">
+          </div>
+        </div>
+        <div class="h3">
+          <h3 class="all-blocks__block_hr3">
+          Это hr3
+            <br>В: 50px</br>
+          </h3>
+        </div>
+        <button class="all-blocks__block_button">
+          Это button
+          <br>В: 50px Ш: 200px</br>
+        </button>
+        <div class="all-blocks__block_of_section">
+          <section class="all-blocks__block_section-one">
+            Это section 1
+            <br>В: 50px Ш: 150px</br>
+          </section>
+          <section class="all-blocks__block_section-two">
+            Это section 2
+            <br>В: 50px Ш: 150px</br>
+          </section>
+        </div>
       </div>
     </div>
   </section>
+
   <!-- Секция 6 -->
   <section class="sections">
     <span class="sections-count">Section #6</span>
-    <div class="selectors">
-      <div class="div_tags">
-        Div
-        <p>P</p>
-        <h2>H2</h2>
-      </div>
-      <div id="test">
-        Id "test":
-        <p>P</p>
-        <div class="bbb">
-          <h2>H2 class bbb</h2>
-          <p>p class bbb</p>
+    <div class="section-6">
+    <div class="section-6__selectors">
+        <div class="selectors__div-tags">
+          Div 
+          <p>P</p>
+          <h2>H2</h2>
         </div>
-        <div class="xxx">
-          <p>p class xxx</p>
-        </div>
-      </div>
-      <div class="bbb">
-      Класс bbb
-        <p>New element p</p>
-        <h2>New element h2</h2>
-        <span>New element span</span>
-      </div>
-      <div class="xxx">
-        Класс xxx
-        <h2>H2</h2>
-      </div>
-      <div class="fff">
-        Класс fff
-        <p>p 1</p>
-        <p>p 2</p>
-        <span>span 1</span>
-        <span>span 2</span>
-        <div class="bbb">
-          <h2>h2</h2>
-        </div>
-        <h4>Ему <div data-value='45'>сорок пять</div> лет.</h4>
-      </div>
-        <div class="parents">
-          <div class="parent"> Parent
-            <div class="child">Child</div>
+        <div id="test">
+          Id "test":
+          <p class="bbb">P</p>
+          <div class="bbb">
+            <h2>H2 class bbb</h2>
+            <p>p class bbb</p>
+          </div>
+          <div class="xxx">
+            <p>p class xxx</p>
           </div>
         </div>
-        <div class="text-active">
-          <div class="text">text</div>
-          <div class="active">active</div>
+        <div class="bbb">
+          Класс bbb
+          <p>New element p</p>
+          <h2>New element h2</h2>
+          <span>New element span</span>
+        </div>
+        <div class="xxx">
+          Класс xxx
+          <h2>H2</h2>
+        </div>
+        <div class="fff">
+          Класс fff
+          <p class="fff">p 1</p>
+          <p>p 2</p>
+          <span>span 1</span>
+          <span>span 2</span>
+          <div class="bbb">
+            <h2>h2</h2>
+          </div>
+          <h4>Ему <div data-value='45'>сорок пять</div> лет.</h4>
+        </div>
+        <div class="selectors__parents">
+          <div class="parents__parent"> Parent
+            <div class="parents__child">Child</div>
+          </div>
+        </div>
+        <div class="selectors__text-active">
+          <div class="text-active__text">text</div>
+          <div class="text-active__active">active</div>
         </div>
         <div class="list-id">
           <ul id="my-test">
             <li>list 1</li>
             <li>list 2</li>
           </ul>
-          <div class="parent-container">
+          <div class="selectors__parent-container">
             <img src="./styles/img/Rectangle 35.png">
             <p>P</p>
             <h1>H1</h1>
@@ -356,15 +384,18 @@
             <div>Div</div>
           </div>
         </div>
+      </div>
     </div>
   </section>
+
   <!-- Секция 7 -->
   <section class="sections">
     <span class="sections-count">Section #7</span>
     <div class="section-seven__tasks-first">
-      <div class="ellipse-tables">
-        <img src="./styles/img/el.png">
-          <div class="tasks-first__count-text">1</div>
+      <div class="ellipse-block">
+        <div class="ellipse-block__image">
+          <div class="ellipse-block__count">1</div>
+        </div>
       </div>
       <div class="tasks-first__parent-block">
         <div class="parent-block__child-block_1">child_1</div>
@@ -374,9 +405,10 @@
       </div>
     </div>
     <div class="section-seven__tasks-second">
-      <div class="ellipse-tables">
-        <img src="./styles/img/el.png">
-          <div class="tasks-second__count-text">2</div>
+      <div class="ellipse-block">
+        <div class="ellipse-block__image">
+          <div class="ellipse-block__count">2</div>
+        </div>
       </div>
       <div class="tasks-second__background-image">
         <img class="background-image__image_1" src="./styles/img/Rectangle 29.png">
@@ -389,6 +421,7 @@
       </div>
     </div>
   </section>
+  
   <!-- Секция 8 -->
   <section class="sections">
     <span class="sections-count">Section #8</span>
