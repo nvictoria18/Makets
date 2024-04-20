@@ -27,8 +27,6 @@ body, html {
 
 .ellipse-block__image {
   background-image: url("./styles/img/el.png");
-.ellipse-block__image {
-  background-image: url("./styles/img/el.png");
   position: relative;
   width: 32px;
   height: 32px;
@@ -36,7 +34,6 @@ body, html {
   height: 32px;
 }
 
-.ellipse-block__count {
 .ellipse-block__count {
   position: absolute;
   top: 50%;
@@ -48,16 +45,8 @@ body, html {
 
 .section-1__lists {
   margin: 30px;
-/* Секция 1 */
-
-.section-1__lists {
-  margin: 30px;
 }
 
-.lists-1__products,
-.lists-2__products,
-.lists-3__definition {
-  display: flex;
 .lists-1__products,
 .lists-2__products,
 .lists-3__definition {
@@ -71,26 +60,12 @@ body, html {
 }
 
 /* Секция 2 */
-.section-2 {
-  padding:20px;
-}
-.inputs__text, 
-.inputs__button, 
-.inputs__disabled, 
-.inputs__password, 
-.inputs__textarea, 
-.buttons__input-button, 
-.buttons__button-button {
-.lists-1__products > *,
-.lists-2__products > *,
-.lists-3__definition > * {
-  margin: 10px;
-}
 
 /* Секция 2 */
 .section-2 {
   padding:20px;
 }
+
 .inputs__text, 
 .inputs__button, 
 .inputs__disabled, 
@@ -99,13 +74,6 @@ body, html {
 .buttons__input-button, 
 .buttons__button-button {
   display: block;
-  margin: 10px;
-}
-
-/* Секция 3 */
-
-.section-3 {
-  padding: 20px;
   margin: 10px;
 }
 
@@ -125,9 +93,6 @@ table, td, th {
 .section-3__table-1,
 .section-3__table-2,
 .section-3__table-3 {
-.section-3__table-1,
-.section-3__table-2,
-.section-3__table-3 {
   display: flex;
 }
 
@@ -135,26 +100,14 @@ table, td, th {
 .section-3__table-2 > *,
 .section-3__table-3 > *{
   margin: 10px;
-.section-3__table-1 > *,
-.section-3__table-2 > *,
-.section-3__table-3 > *{
-  margin: 10px;
 }
 
 /* Секция 4 */
 
 .section-4__blocks-of-texts {
   padding: 20px;
-/* Секция 4 */
-
-.section-4__blocks-of-texts {
-  padding: 20px;
 }
 
-.blocks-of-texts__item_first,
-.blocks-of-texts__item_second,
-.blocks-of-texts__item_third,
-.blocks-of-texts__item_fourth {
 .blocks-of-texts__item_first,
 .blocks-of-texts__item_second,
 .blocks-of-texts__item_third,
@@ -167,17 +120,8 @@ table, td, th {
 .blocks-of-texts__item_third > *,
 .blocks-of-texts__item_fourth > * {
   margin: 10px;
-.blocks-of-texts__item_first > *,
-.blocks-of-texts__item_second > *,
-.blocks-of-texts__item_third > *,
-.blocks-of-texts__item_fourth > * {
-  margin: 10px;
 }
 
-.item_first,
-.item_second,
-.item_third,
-.item_fourth {
 .item_first,
 .item_second,
 .item_third,
@@ -190,7 +134,6 @@ table, td, th {
   padding: 5px 10px;
 }
 
-.item_first__text {
 .item_first__text {
   white-space: normal;
 }
@@ -230,11 +173,8 @@ table, td, th {
 
 .all-blocks__span_div {
   display: flex;
-.all-blocks__span_div {
-  display: flex;
 }
 
-.all-blocks__block_span {
 .all-blocks__block_span {
   background-color: darkmagenta;
   height:50px;
@@ -245,11 +185,8 @@ table, td, th {
 
 .all-blocks__block_input > input {
   width: 300px;
-.all-blocks__block_input > input {
-  width: 300px;
 }
 
-.all-blocks__block_hr3 {
 .all-blocks__block_hr3 {
   background-color: darkmagenta;
   height:50px;
@@ -259,7 +196,6 @@ table, td, th {
 }
 
 .all-blocks__block_button {
-.all-blocks__block_button {
   background-color: darkmagenta;
   height:50px;
   width: 200px;
@@ -267,12 +203,9 @@ table, td, th {
 }
 
 .all-blocks__block_of_section {
-.all-blocks__block_of_section {
   display: flex;
 }
 
-.all-blocks__block_section-one,
-.all-blocks__block_section-two {
 .all-blocks__block_section-one,
 .all-blocks__block_section-two {
   background-color: darkmagenta;
@@ -1404,7 +1337,6 @@ div[data-value='45'] { /* 19 */
 }
 
 .container__grid-block_3 > * {
-.container__grid-block_3 > * {
   background-color: #8B0000;
   width: 120px;
   height: 120px;
@@ -1438,7 +1370,6 @@ div[data-value='45'] { /* 19 */
 }
 
 .container__flexbox-block_1 > * {
-.container__flexbox-block_1 > * {
   background-color: #FA8072;
   width: 120px;
   height: 120px;
@@ -1457,10 +1388,6 @@ div[data-value='45'] { /* 19 */
   flex-wrap: wrap;
 }
 
-.flexbox-block_2__child_1, .flexbox-block_2__child_2, .flexbox-block_2__child_3,
-.flexbox-block_2__child_4, .flexbox-block_2__child_5, .flexbox-block_2__child_6,
-.flexbox-block_2__child_7, .flexbox-block_2__child_8, .flexbox-block_2__child_9 {
-  margin: 10px;
 .flexbox-block_2__child_1, .flexbox-block_2__child_2, .flexbox-block_2__child_3,
 .flexbox-block_2__child_4, .flexbox-block_2__child_5, .flexbox-block_2__child_6,
 .flexbox-block_2__child_7, .flexbox-block_2__child_8, .flexbox-block_2__child_9 {
