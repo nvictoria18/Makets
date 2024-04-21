@@ -154,6 +154,7 @@ table, td, th {
 
 .section-5__all-blocks {
   background-color: #D8BFD8;
+  width: auto;
 }
 
 .all-blocks {
@@ -885,6 +886,7 @@ div[data-value='45'] { /* 19 */
 
 .section-9__eleventh-tasks > div {
   background-color: orange;
+  margin-top: 18px;
 }
 
 .eleventh-tasks__block_1 {
@@ -896,9 +898,8 @@ div[data-value='45'] { /* 19 */
 }
 
 .eleventh-tasks__block_2 {
+  margin: 0 5px 0 10px;
   position: relative;
-  margin-left: 10px;
-  margin-right: 5px;
   width: 130px;
   height: 100px;
   text-align: center;
@@ -906,9 +907,8 @@ div[data-value='45'] { /* 19 */
 }
 
 .eleventh-tasks__block_3 {
+  margin: 0 10px 0 5px;
   position: relative;
-  margin-left: 5px;
-  margin-right: 10px;
   width: 130px;
   height: 100px;
   text-align: center;
@@ -955,14 +955,15 @@ div[data-value='45'] { /* 19 */
   width: 60%;
   height: 400px;
   background-color: #F5F5DC;
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr;
 }
 
 .block__title {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
   font-size: 28px;
 }
 
@@ -971,7 +972,6 @@ div[data-value='45'] { /* 19 */
   flex-wrap: wrap;
   justify-content: center;
   bottom: 5px;
-  position: absolute;
 }
 
 .block__elements > div {
@@ -1350,18 +1350,16 @@ div[data-value='45'] { /* 19 */
 
 /* Flexbox */
 
-/* Flexbox */
-
 .container__flexbox {
-  margin: 0 auto;
-  width: 35%;
-  height: auto;
-  margin: 0 auto;
-  width: 35%;
-  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
 }
 
 .container__flexbox-block_1 {
+  width: 35%;
+  place-self: center;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1379,11 +1377,11 @@ div[data-value='45'] { /* 19 */
 }
 
 .container__flexbox-block_2 {
-  height: 550px;
-  height: 550px;
+  width: 30%;
+  place-self: center;
+  height: auto;
   display: flex;
   justify-content: end;
-  align-items: flex-end;
   align-items: flex-end;
   flex-wrap: wrap;
 }
@@ -1399,6 +1397,9 @@ div[data-value='45'] { /* 19 */
 }
 
 .container__flexbox-block_3 {
+  width:30%;
+  place-self: center;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1429,4 +1430,30 @@ div[data-value='45'] { /* 19 */
   border: 3px solid black;
   width: 120px;
   height: 120px;
+}
+
+/* Секция 16 */
+
+@media screen and (max-width: 1440px) {
+  section {
+      max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section {
+      max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+      max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  section {
+      max-width: 100%;
+  }
 }
