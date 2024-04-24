@@ -61,7 +61,6 @@ body, html {
 
 /* Секция 2 */
 
-/* Секция 2 */
 .section-2 {
   padding:20px;
 }
@@ -102,7 +101,7 @@ table, td, th {
   margin: 10px;
 }
 
-/* Секция 4 */
+/* Секция 4 */ 
 
 .section-4__blocks-of-texts {
   padding: 20px;
@@ -1377,6 +1376,7 @@ div[data-value='45'] { /* 19 */
   justify-content: end;
   align-items: flex-end;
   flex-wrap: wrap;
+  width: 10%;
 }
 
 .flexbox-block_2__child_1, .flexbox-block_2__child_2, .flexbox-block_2__child_3,
@@ -1395,6 +1395,7 @@ div[data-value='45'] { /* 19 */
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  width: 10%;
 }
 
 .flexbox-block_3__child_1, .flexbox-block_3__child_2, .flexbox-block_3__child_3,
@@ -1482,43 +1483,6 @@ div[data-value='45'] { /* 19 */
   }
  }
 
- /* @media screen and (max-width: 1440px) {
-  .sections {
-    max-width: 100%;
-  }
-
-  .tasks-first__parent-block {
-    max-width: 50%;
-    height: auto;
-  }
-
-  .tasks-first__parent-block div {
-    max-height: 60%;
-    max-width: 50%;
-    flex-wrap: wrap;
-    box-sizing: content-box;
-  }
-
-  .section-eight {
-    width: 50%;
-  }
-
-  .container__flexbox > * {
-    width: 40%;
-    height:30%;
-  }
-  .block__elements * {
-    max-height: 18%;
-    box-sizing: content-box;
-  }
-  .block__element_1 {
-    width: 40%;
-}
-  .block__element_2 {
-    width: 40%;
-}
- } */
-
  @media screen and (min-width: 1440px) {
   .sections {
     max-width: 100%;
@@ -1556,10 +1520,10 @@ div[data-value='45'] { /* 19 */
   } 
 
   .container__flexbox-block_2 {
-    width: 35%;
+    width: 32%;
   }
 
   .container__flexbox-block_3 {
-    width: 35%;
+    width: 32%;
   }
  }
